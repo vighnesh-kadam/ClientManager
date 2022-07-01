@@ -1,0 +1,87 @@
+
+.box:hover{
+    background-color: #f7aef8;  
+   color: black;
+}
+.box{
+    height: 80px;
+    text-align: center;
+    padding-top: 8%;
+    border: 1px solid black;
+}
+.navbar{
+   
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.menu{
+    position: fixed;
+   margin-top: 53px;
+width: 25%;
+background-color: blueviolet;
+color: white;
+}
+.cards{
+    margin-top:53px ;
+    margin-left: 40px;
+    position:relative;
+}
+Card{
+    max-height: 80px;
+   
+}
+.keys{
+    color: white;
+}
+.plates{
+background-color: #073b4c;
+color: white;
+}
+body{
+    background-color: bisque;
+}
+a { color: white; }
+.addClient{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.values{
+  
+}
+.inputbox{
+   width : 50px;
+}
+.titles{
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.plate-header{
+ 
+}
+.revenuePage{
+    margin-top: 30%;
+}
+.signupForm{
+    margin-top: 10%;
+   
+  }
+  .rev{
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+ .dc{
+    margin-top: 10%;
+    margin-left: 35%;
+ }
+  @media (max-width:800px){
+    .smallscreen{
+        margin-top: 25%;
+    }
+    .smalldisplay{
+        margin-top: 20%;
+    }
+  }
